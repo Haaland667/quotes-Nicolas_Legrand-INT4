@@ -22,6 +22,9 @@ def main():
         elif choice == "3":
             print("Good bye...")
             break
+        elif choice =="5":
+            count = int(input("Enter the number of quotes to display: "))
+            display_quotes(quotes, count)
         else:
             print("Invalid input")
 
